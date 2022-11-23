@@ -1,0 +1,20 @@
+---
+- hosts: webservers
+
+  tasks:
+    - name: delete index.html
+      file:
+        path: /var/www/index.html
+        state: absent
+
+    - name: stop httpd
+      ansible.builtin.service:
+        name: httpd
+        state: stopped
+
+    - name: uninstall httpd
+      ansible.builtin.yum:
+        name: httpd
+        state: removed   
+...
+

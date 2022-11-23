@@ -1,0 +1,35 @@
+---
+- hosts: webservers
+
+  tasks:
+    - name: install httpd
+      ansible.builtin.yum:
+        name: httpd
+        state: present
+
+    - name: start and enable httpd
+      ansible.builtin.service:
+        name: httpd
+        state: started
+        enabled: yes
+
+    - name: copy index.html to webservers
+      copy:
+        src: index.html
+        dest: /var/www/html/index.html
+
+    # - name: delete index.html
+    #   file:
+    #     path: /var/www/index.html
+    #     state: absent
+
+    # - name: stop httpd
+    #   ansible.builtin.service:
+    #     name: httpd
+    #     state: stopped
+
+    # - name: uninstall httpd
+    #   ansible.builtin.yum:
+    #     name: httpd
+    #     state: removed     
+...
