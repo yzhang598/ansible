@@ -1,0 +1,10 @@
+---
+- hosts: webservers
+
+  roles:
+    - role: redhat_httpd
+      when: ansible_os_family == "RedHat"
+
+    - role: ubuntu_httpd
+      when: ansible_os_family == "Debian"
+... 

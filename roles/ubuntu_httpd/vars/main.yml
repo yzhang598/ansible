@@ -1,0 +1,4 @@
+---
+# vars file for httpd
+#
+apache2_port: 8282
