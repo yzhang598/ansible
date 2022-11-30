@@ -1,0 +1,8 @@
+download_url: https://galaxy.ansible.com/download/nginxinc-nginx_core-0.7.1.tar.gz
+format_version: 1.0.0
+name: nginx_core
+namespace: nginxinc
+server: https://galaxy.ansible.com/api/
+signatures: []
+version: 0.7.1
+version_url: https://galaxy.ansible.com/api/v2/collections/nginxinc/nginx_core/versions/0.7.1/

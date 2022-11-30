@@ -3,7 +3,7 @@
   become: true
   
   vars:
-    ansible_become_pass: jenkins
+    ansible_become_pass: "{{ jenkins_sudo_pass }}"
 
   tasks:
     - name: install tomcat

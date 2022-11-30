@@ -1,0 +1,2749 @@
+{
+ "files": [
+  {
+   "name": ".",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "CODE_OF_CONDUCT.md",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "b470aafd686b4cf1f9965cfc7a1dbea006df0e314594a5b2b1f219c379a03701",
+   "format": 1
+  },
+  {
+   "name": ".DS_Store",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "7e8c468320c4c89e3a4857b39744ad665ee4fe50a187ab0e5a50a437db585d8c",
+   "format": 1
+  },
+  {
+   "name": "LICENSE",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+   "format": 1
+  },
+  {
+   "name": "CHANGELOG.md",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "ae23fc9f5db0e532a9f78c2ca70d3e1ab0d465d60416060d132b0bb3d61d86d0",
+   "format": 1
+  },
+  {
+   "name": "plugins",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "plugins/.gitkeep",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "format": 1
+  },
+  {
+   "name": ".yamllint",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "dfc5bc8b251bd33f85e38b68eb76b8fa76f0633cf25d7b79f672c90c84e853dc",
+   "format": 1
+  },
+  {
+   "name": "meta",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "meta/runtime.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "dd8a0262de652ac559208b043a2b9076084ba92118aadaba69de8136b11bf776",
+   "format": 1
+  },
+  {
+   "name": "roles",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/nginx_config",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/nginx_config/CODE_OF_CONDUCT.md",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "b470aafd686b4cf1f9965cfc7a1dbea006df0e314594a5b2b1f219c379a03701",
+   "format": 1
+  },
+  {
+   "name": "roles/nginx_config/vars",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/nginx_config/vars/main.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "f52d711103d50a437830c6fbcd04fb4bab49a0f82f6d26d1c791c6e8488dd090",
+   "format": 1
+  },
+  {
+   "name": "roles/nginx_config/tasks",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/nginx_config/tasks/prerequisites",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/nginx_config/tasks/prerequisites/setup-selinux.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "8b48370745fc9543504563a3ebc48c71c05f73375f8851d6fc831a0ed5fe00cd",
+   "format": 1
+  },
+  {
+   "name": "roles/nginx_config/tasks/config",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/nginx_config/tasks/config/debug-output.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "3b4b0a273a91b49d2188adb673f418073b350446aaf6c77de2f584fb5756355c",
+   "format": 1
+  },
+  {
+   "name": "roles/nginx_config/tasks/config/template-config.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "0f34a5a884547b83e9ef3cc05035ba30bd3197bc56bdaf64785d2e08bec8d4ac",
+   "format": 1
+  },
+  {
+   "name": "roles/nginx_config/tasks/config/upload-config.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "7bbd3e9c98a5344e0a30691e4aef9cb989eeb16f9bb8a7bac7081c75cac3ae2b",
+   "format": 1
+  },
+  {
+   "name": "roles/nginx_config/tasks/config/cleanup-config.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "6940decaca51a62ad78a78d8bc9cb609961deb558fe28630a02d113ed11e537b",
+   "format": 1
+  },
+  {
+   "name": "roles/nginx_config/tasks/main.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "d4f6cd446686acac3c96e7ca650b8e89e66d3fe2efc5b6b2f2822101cb58925e",
+   "format": 1
+  },
+  {
+   "name": "roles/nginx_config/LICENSE",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+   "format": 1
+  },
+  {
+   "name": "roles/nginx_config/CHANGELOG.md",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "a7a3bc299931cf2e73e09f27f3f17f68956f1d9a167169740cfda76a2b72db99",
+   "format": 1
+  },
+  {
+   "name": "roles/nginx_config/meta",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/nginx_config/meta/main.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "d5ebdc28420abb6f02d126b59fd154b5079c70bef2276206e5476772b2580598",
+   "format": 1
+  },
+  {
+   "name": "roles/nginx_config/README.md",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "8cc5216465b0bb1c7d128fcd5876e9ecf9208e6e15324a239734b9cf28984d2b",
+   "format": 1
+  },
+  {
+   "name": "roles/nginx_config/defaults",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/nginx_config/defaults/main",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/nginx_config/defaults/main/template.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "9e47069c0d40f20596f6b3f3d6780ba144578cf65c392ea54fc6fb5899982dca",
+   "format": 1
+  },
+  {
+   "name": "roles/nginx_config/defaults/main/upload.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "9d8fe762f8600f63519e6357539461a416f9c27df0f0c135f9a8cf2d3e5795f2",
+   "format": 1
+  },
+  {
+   "name": "roles/nginx_config/defaults/main/selinux.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "a9dff998104cfc91502baa08fcde0f23c6ba47f8720c91684bcd4acf74ee318e",
+   "format": 1
+  },
+  {
+   "name": "roles/nginx_config/defaults/main/main.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "7870544807d379a2a9f2d3d8adf88e8c47e6dbc99bc2bba17e3fd1d8b7abd004",
+   "format": 1
+  },
+  {
+   "name": "roles/nginx_config/.ansible-lint",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "3bc546c37e850c9d4ea99091592603b280c8dc32ff2d528bff301300f3fc6738",
+   "format": 1
+  },
+  {
+   "name": "roles/nginx_config/.gitignore",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "fab32cf84ce21ce79377e41234b1ed116a00382f24dea0d54562f25fa393d1cc",
+   "format": 1
+  },
+  {
+   "name": "roles/nginx_config/CONTRIBUTING.md",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "70d3955fc37191a7ae0e572427a1dc25f17f506bf13c90a96a44d8e8ba08a4f8",
+   "format": 1
+  },
+  {
+   "name": "roles/nginx_config/.github",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/nginx_config/.github/CODEOWNERS",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "88d9bfffe65e7981ca522bdc1d27649b70437de7eb11e99f8a6fc2e2f3b68ba2",
+   "format": 1
+  },
+  {
+   "name": "roles/nginx_config/.github/workflows",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/nginx_config/.github/workflows/molecule.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "f4d411d4a43ddc5164cd14c4186b8e00d78227b079600ece37882b23b96f9f4b",
+   "format": 1
+  },
+  {
+   "name": "roles/nginx_config/.github/workflows/requirements",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/nginx_config/.github/workflows/requirements/requirements_molecule.txt",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "4da093ee507287eced04d13498a0a4b6b6a9616a66c5ff817983e9f0305fa227",
+   "format": 1
+  },
+  {
+   "name": "roles/nginx_config/.github/workflows/requirements/requirements_galaxy.txt",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "f1ed88044039c04ac88b9ead4cfbb339103303f57c3fc9d1f9ccd39a262c68ba",
+   "format": 1
+  },
+  {
+   "name": "roles/nginx_config/.github/workflows/requirements/requirements_ansible.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "f6159ad361daedd72295a29979dbc4dc13e25e57a09fb66ddac52a111bfe724c",
+   "format": 1
+  },
+  {
+   "name": "roles/nginx_config/.github/workflows/release-drafter.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "35ea77b554deeecbaab83b17c55bfc53a7c4d5cbed78575a5ad43a1c70368e7b",
+   "format": 1
+  },
+  {
+   "name": "roles/nginx_config/.github/workflows/galaxy.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "cfef773bb0a6c516984096e8faa72d6f3a1426eee3f4724789ec270d00110155",
+   "format": 1
+  },
+  {
+   "name": "roles/nginx_config/.github/pull_request_template.md",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "d86a8a613392089687497151d96f952a3a3b58fde4df54b00263afc5f4e622fe",
+   "format": 1
+  },
+  {
+   "name": "roles/nginx_config/.github/release-drafter.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "345f1dc51268d8a42ed13635cc8553860de10f58b1f47b3cacc7e2b38fa1f4ac",
+   "format": 1
+  },
+  {
+   "name": "roles/nginx_config/.github/ISSUE_TEMPLATE",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/nginx_config/.github/ISSUE_TEMPLATE/feature_request.md",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "bc9db75e6d8555d94ea18c40bd3ec5ba85d7a7e6bc6c93ed742f9dbe64e7efe4",
+   "format": 1
+  },
+  {
+   "name": "roles/nginx_config/.github/ISSUE_TEMPLATE/bug_report.md",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "2b7f31410cfe0455ba2695a2ce900bd48bdfe37095e2e4fffc12bd5425847761",
+   "format": 1
+  },
+  {
+   "name": "roles/nginx_config/.github/dependabot.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "725ef061323d05e0716f0cfae732246e15c37a8662ab0103f314e6192bef4794",
+   "format": 1
+  },
+  {
+   "name": "roles/nginx_config/.github/SECURITY.md",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "fd8a5b524e09c057f3aeb9566ab5f76140b2ef7e20a59b5a1fdb8cfd5a23e73a",
+   "format": 1
+  },
+  {
+   "name": "roles/nginx_config/files",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/nginx_config/files/ssl",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/nginx_config/files/ssl/.gitkeep",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "format": 1
+  },
+  {
+   "name": "roles/nginx_config/files/config",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/nginx_config/files/config/snippets",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/nginx_config/files/config/snippets/.gitkeep",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "format": 1
+  },
+  {
+   "name": "roles/nginx_config/files/config/stream",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/nginx_config/files/config/stream/.gitkeep",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "format": 1
+  },
+  {
+   "name": "roles/nginx_config/files/config/http",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/nginx_config/files/config/http/.gitkeep",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "format": 1
+  },
+  {
+   "name": "roles/nginx_config/files/www",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/nginx_config/files/www/.gitkeep",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "format": 1
+  },
+  {
+   "name": "roles/nginx_config/templates",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/nginx_config/templates/nginx.conf.j2",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "61abc9382508434647e2caca73757b610197646596e1aeba96c9dc6023b10d36",
+   "format": 1
+  },
+  {
+   "name": "roles/nginx_config/templates/stream",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/nginx_config/templates/stream/ssl.j2",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "76d9c58a85e429919ea3646b356de46d83fcff34bcdeb031c6e5ee17ff790786",
+   "format": 1
+  },
+  {
+   "name": "roles/nginx_config/templates/stream/modules.j2",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "ff1f1cc4cb1cca47b953d7d59f0c9b735f0774b01fccc1dfb242a62c2f5cae75",
+   "format": 1
+  },
+  {
+   "name": "roles/nginx_config/templates/stream/upstream.j2",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "ba32f8fa74b12c0aa68555d58982aab176e620d347225e4a27b113adb52a290a",
+   "format": 1
+  },
+  {
+   "name": "roles/nginx_config/templates/stream/default.conf.j2",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "9712734275e1cefe5ef1dba2f67978142798394ae3025d94475b7e0acf8b2a32",
+   "format": 1
+  },
+  {
+   "name": "roles/nginx_config/templates/stream/proxy.j2",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "1b80a7efb41ad2147d801e0aa836c9eabc3a5f48a82560629407106d4e1e6092",
+   "format": 1
+  },
+  {
+   "name": "roles/nginx_config/templates/stream/core.j2",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "cc0bd60b395e32536f274b86f961d47f0193b475272337235ca0df65fd6f4125",
+   "format": 1
+  },
+  {
+   "name": "roles/nginx_config/templates/www",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/nginx_config/templates/www/index.html.j2",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "9cbafb61c0e989db9c180a0171b85657307c10218d50908b135d2689cdfdbc11",
+   "format": 1
+  },
+  {
+   "name": "roles/nginx_config/templates/http",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/nginx_config/templates/http/ssl.j2",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "9118025054ac71a2265ed1a71e0ced84de1d593f9100b6525092e539d0268397",
+   "format": 1
+  },
+  {
+   "name": "roles/nginx_config/templates/http/modules.j2",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "6a9001bb7fe6a0dfaa6c3f8fb82f7fcc7cfd27000a0eb303358560358a34a763",
+   "format": 1
+  },
+  {
+   "name": "roles/nginx_config/templates/http/app_protect.j2",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "b6e1e19be8d0c03ad2b870519967cff2a1f5630fc90ee367d2195d6e672f159b",
+   "format": 1
+  },
+  {
+   "name": "roles/nginx_config/templates/http/status.conf.j2",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "3370ab8673c8ac9a43cb077c39031c2851d5e846db7a073e58a738aea8fb2568",
+   "format": 1
+  },
+  {
+   "name": "roles/nginx_config/templates/http/upstream.j2",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "c69fffe1fdd73fa34524824c31803d618e6609394e4b9bac81abf29f06b6b2bf",
+   "format": 1
+  },
+  {
+   "name": "roles/nginx_config/templates/http/default.conf.j2",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "ca602d9d2ae87d9f95597c4237fee6b27b69ce7e164f0b038ad5184bf85de71f",
+   "format": 1
+  },
+  {
+   "name": "roles/nginx_config/templates/http/proxy.j2",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "f4faae704c6ac2d7a32ef0a7d4bd584a32ed4574641e1d1bd4245a59e92e7107",
+   "format": 1
+  },
+  {
+   "name": "roles/nginx_config/templates/http/core.j2",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "23100b116e1915836445d076c34049a9e8983103e7c9156167cd861250ad69d6",
+   "format": 1
+  },
+  {
+   "name": "roles/nginx_config/templates/http/grpc.j2",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "b70c720392f5d40516072a58b4d2ee2d563551ca35fcaa52d797f2135f46464c",
+   "format": 1
+  },
+  {
+   "name": "roles/nginx_config/templates/http/auth.j2",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "095b643460240ccb3abc3018540a540046273765944bc6506658800f712b7308",
+   "format": 1
+  },
+  {
+   "name": "roles/nginx_config/templates/http/api.conf.j2",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "df865e26b98860dda0ccb73c8a55751b0e38a46984423d6a7e2acb99e926e9f6",
+   "format": 1
+  },
+  {
+   "name": "roles/nginx_config/templates/core.j2",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "fca4805f9892134c97e811a0f5040b044e93b36c73fc2ac0fe34496b0ee4609a",
+   "format": 1
+  },
+  {
+   "name": "roles/nginx_config/.git",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "e7ea34f0495e8b2c830fddd4f473809ee3fb90011ed029c07a029cb4ec2906e7",
+   "format": 1
+  },
+  {
+   "name": "roles/nginx_config/molecule",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/nginx_config/molecule/stable_push",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/nginx_config/molecule/stable_push/verify.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "4fff0de95a1bdb1a83b56020012b3b795c822cc039d0b76e3538c5b231882b34",
+   "format": 1
+  },
+  {
+   "name": "roles/nginx_config/molecule/stable_push/molecule.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "be130efbc27d5a228eaeeaad9cf0857dbdd6907a2635577da394bba8b1678c26",
+   "format": 1
+  },
+  {
+   "name": "roles/nginx_config/molecule/stable_push/converge.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "22aea4a85d7629bbfdc2b312897a73633675577a6021ebea498f2e2a2709bdb1",
+   "format": 1
+  },
+  {
+   "name": "roles/nginx_config/molecule/stable_push/prepare.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "dbd195d92427d1db280ec0b5759aee81816467e24a22cd5d7005fd38596bf42d",
+   "format": 1
+  },
+  {
+   "name": "roles/nginx_config/molecule/default",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/nginx_config/molecule/default/verify.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "e029986546ef2d900e73590e70d99a5569950a8d7fdaa95fa84959dd1b3c2415",
+   "format": 1
+  },
+  {
+   "name": "roles/nginx_config/molecule/default/molecule.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "be130efbc27d5a228eaeeaad9cf0857dbdd6907a2635577da394bba8b1678c26",
+   "format": 1
+  },
+  {
+   "name": "roles/nginx_config/molecule/default/converge.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "852bc3ce1d202e139e40c830b91ea8fad2c24352e20d10f1ac77dc4f14bcfabb",
+   "format": 1
+  },
+  {
+   "name": "roles/nginx_config/molecule/default/prepare.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "47727d8bf0646025c666eee66e622484d2182304addaf767ce682713dfbb1b96",
+   "format": 1
+  },
+  {
+   "name": "roles/nginx_config/molecule/common",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/nginx_config/molecule/common/Dockerfile.j2",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "88307e78b97c399aace4b2faf4a0be86b7848d10d3f6f8a142f78b4ed3c7a436",
+   "format": 1
+  },
+  {
+   "name": "roles/nginx_config/molecule/common/requirements",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/nginx_config/molecule/common/requirements/oss_requirements.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "87953abc31098e6390488519c5e76e1e1f759cd1868b201ce59a574738b9813c",
+   "format": 1
+  },
+  {
+   "name": "roles/nginx_config/molecule/common/requirements/plus_requirements.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "197ded45e2eb856620cfe41f5b002dee984a93785ef1d1820a81b17ff288fcf6",
+   "format": 1
+  },
+  {
+   "name": "roles/nginx_config/molecule/common/files",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/nginx_config/molecule/common/files/snippets",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/nginx_config/molecule/common/files/snippets/location_snippet.conf",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "4d9ce47db5e40cbc1a7bb30cee811385d6a98f3cb4f5e08d54c0a802b13f4ab3",
+   "format": 1
+  },
+  {
+   "name": "roles/nginx_config/molecule/common/files/ssl",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/nginx_config/molecule/common/files/ssl/molecule.crt",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "2cd3a2587b20bdf034ca5adae45f1496e18378ea40d7c2f2a0809fdf0f24092d",
+   "format": 1
+  },
+  {
+   "name": "roles/nginx_config/molecule/common/files/ssl/molecule.key",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "8835490102c7346320a5596f2d5539754fd23aff39e683b0fddad8e87257c9ef",
+   "format": 1
+  },
+  {
+   "name": "roles/nginx_config/molecule/common/files/license",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/nginx_config/molecule/common/files/license/.gitkeep",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "format": 1
+  },
+  {
+   "name": "roles/nginx_config/molecule/common/files/www",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/nginx_config/molecule/common/files/www/index.html",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "fccf6043dc07f743291957a5506c80ad576e015e110b0daa81cfa89747f0ddcb",
+   "format": 1
+  },
+  {
+   "name": "roles/nginx_config/molecule/common/files/http",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/nginx_config/molecule/common/files/http/server_one.conf",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "5fdda0f62da8fd14e16c8eb9a9420861b43aa7c8cc3ef8917307e55cd6249689",
+   "format": 1
+  },
+  {
+   "name": "roles/nginx_config/molecule/common/files/http/server_two.conf",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "ca3fcfccde721dba0ad0000ebd623a294fe6d58d902a195c5ae5b82bc4c868ca",
+   "format": 1
+  },
+  {
+   "name": "roles/nginx_config/molecule/common/files/nginx.conf",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "94b77e4f5e09b5ed2313fb2139aae655f6d95e461a26b968444374f55cfc13b5",
+   "format": 1
+  },
+  {
+   "name": "roles/nginx_config/molecule/cleanup_module",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/nginx_config/molecule/cleanup_module/verify.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "41ad9e96ce47567885284f756e1e1879aff8f1112fe448ee488f9604264ac54c",
+   "format": 1
+  },
+  {
+   "name": "roles/nginx_config/molecule/cleanup_module/molecule.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "be130efbc27d5a228eaeeaad9cf0857dbdd6907a2635577da394bba8b1678c26",
+   "format": 1
+  },
+  {
+   "name": "roles/nginx_config/molecule/cleanup_module/converge.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "22942ae14e290978c3ac8a30e99fefffedbc229b6aae9c86c4048c38355e4404",
+   "format": 1
+  },
+  {
+   "name": "roles/nginx_config/molecule/cleanup_module/prepare.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "06566f95c3f5c73499e395be984db35501b97c3b010c0c9480c7a3c578b9fdb9",
+   "format": 1
+  },
+  {
+   "name": "roles/nginx_config/molecule/plus",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/nginx_config/molecule/plus/verify.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "cabcb4c195302861530fcf10b365c5d3b695e014ebf540be270ec40978e8ec61",
+   "format": 1
+  },
+  {
+   "name": "roles/nginx_config/molecule/plus/molecule.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "5a0fd176864363336391145f734f2d85f1dc7ac4517f2215a6fac5a3b32dc061",
+   "format": 1
+  },
+  {
+   "name": "roles/nginx_config/molecule/plus/converge.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "f49a976816f97d66c41e32d57b0a1bb10c0caf423ab98bccd869d5eb952aed67",
+   "format": 1
+  },
+  {
+   "name": "roles/nginx_config/molecule/plus/prepare.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "f3c6bb7e0dc340bcd27ec75d541a88da97c00652487b3a3e15f14ac00e134826",
+   "format": 1
+  },
+  {
+   "name": "roles/nginx_config/handlers",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/nginx_config/handlers/main.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "528bb1eef3cd70ac2ddb9b1cc8c7c84c7f6a9c0eb0c6e512fd76bac103f0432c",
+   "format": 1
+  },
+  {
+   "name": "roles/nginx",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/nginx/CODE_OF_CONDUCT.md",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "b470aafd686b4cf1f9965cfc7a1dbea006df0e314594a5b2b1f219c379a03701",
+   "format": 1
+  },
+  {
+   "name": "roles/nginx/vars",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/nginx/vars/main.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "23194653f745cb3fc4438057984572ea9500122ef0e75795f21dc5262195238a",
+   "format": 1
+  },
+  {
+   "name": "roles/nginx/tasks",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/nginx/tasks/prerequisites",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/nginx/tasks/prerequisites/install-dependencies.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "8bfbcef6eb2404a4c00992948d410de12d1f1bc8fb406af3c77c78260845076b",
+   "format": 1
+  },
+  {
+   "name": "roles/nginx/tasks/prerequisites/prerequisites.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "2a1d932ee67fde500bcebbf1ffbd8ed85122aa9f08a3418c94aedcd74370c49e",
+   "format": 1
+  },
+  {
+   "name": "roles/nginx/tasks/prerequisites/setup-selinux.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "a6805feecba762cb241d72329cb44951d5fcb8009138ab6926e41e208b555888",
+   "format": 1
+  },
+  {
+   "name": "roles/nginx/tasks/config",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/nginx/tasks/config/debug-output.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "3b4b0a273a91b49d2188adb673f418073b350446aaf6c77de2f584fb5756355c",
+   "format": 1
+  },
+  {
+   "name": "roles/nginx/tasks/config/setup-logrotate.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "52dc756b5034721e1604a1390a16df926c72bbc4c73aa59b7d109a91551f6131",
+   "format": 1
+  },
+  {
+   "name": "roles/nginx/tasks/config/modify-systemd.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "bc6dcb23737112858a53c816fdf1a7b45bfaf011124642119f1b9afacc02eaa7",
+   "format": 1
+  },
+  {
+   "name": "roles/nginx/tasks/amplify",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/nginx/tasks/amplify/setup-debian.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "6c82cd5070260bb054d57eed455b13d24db5f4b1590b4d2c57628e69560d389c",
+   "format": 1
+  },
+  {
+   "name": "roles/nginx/tasks/amplify/install-amplify.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "28f9cd03aef451645334cd4b0a0deef8ac3c637caeb13aaf952da6354e385ece",
+   "format": 1
+  },
+  {
+   "name": "roles/nginx/tasks/amplify/setup-redhat.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "451bec8cd2e42b3af31b51949a9ef9edf4bfba19cfb25e38d59d16077224692e",
+   "format": 1
+  },
+  {
+   "name": "roles/nginx/tasks/opensource",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/nginx/tasks/opensource/install-bsd.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "90e571ac3dab14e7f15508ceb58827884199e7c0c7e7b973df6afb3442f9bc55",
+   "format": 1
+  },
+  {
+   "name": "roles/nginx/tasks/opensource/install-alpine.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "6c8a4537d6b145899202613b6bacdef568fa5bc8e6de4cd95b448ac68bb8e63c",
+   "format": 1
+  },
+  {
+   "name": "roles/nginx/tasks/opensource/install-suse.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "66287e9e0d7c0f817e4b7bab3594babbfd6a3bc8205a1afecbe4928da77c9f73",
+   "format": 1
+  },
+  {
+   "name": "roles/nginx/tasks/opensource/install-oss.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "83663d5b9c1e43afdb5ad522ff2425bc9e232af8c8d7c9efd67f654efb47946f",
+   "format": 1
+  },
+  {
+   "name": "roles/nginx/tasks/opensource/install-debian.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "8cf7e932c68001a22172e2987dc7e47b29e4a3b95999c0efde1c70c271c2f5f6",
+   "format": 1
+  },
+  {
+   "name": "roles/nginx/tasks/opensource/install-source.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "39a9202085c8fee3adf33ed1c78e000315c5fd2844d0dc1e1edd03fc6c9ffcc7",
+   "format": 1
+  },
+  {
+   "name": "roles/nginx/tasks/opensource/install-redhat.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "69f26bc0f80de5249ed8fc9b7c93e0bd4e14a7145c1da27a70db80dc98f197cb",
+   "format": 1
+  },
+  {
+   "name": "roles/nginx/tasks/keys",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/nginx/tasks/keys/setup-keys.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "42b6e1fe75abe07d14009ea9532a0c0699b5c02f5fb16b2b14d55a5e70ab0b42",
+   "format": 1
+  },
+  {
+   "name": "roles/nginx/tasks/modules",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/nginx/tasks/modules/install-modules.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "cc171cf7138eb1234b4243ea45c3e166389dab925b5b77bbfd40b4f101a6dbc1",
+   "format": 1
+  },
+  {
+   "name": "roles/nginx/tasks/main.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "53807c4fc829bbb4ae238d08f175139304aa4b021220138da1c0a5f63d51bf73",
+   "format": 1
+  },
+  {
+   "name": "roles/nginx/tasks/plus",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/nginx/tasks/plus/install-alpine.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "758a77dcdf40932bfc525045583aacac3b4542eb66356a7eca1a73a3a0400347",
+   "format": 1
+  },
+  {
+   "name": "roles/nginx/tasks/plus/install-freebsd.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "d2c73eb2427cb7bae78bae3c0ebcb4eb0f3b60766dc86f5af4888b84c3b0e2db",
+   "format": 1
+  },
+  {
+   "name": "roles/nginx/tasks/plus/install-suse.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "4174db5910ce3008e681f2aef19ec556a5801281f54dca11b032bf00e4d35c5f",
+   "format": 1
+  },
+  {
+   "name": "roles/nginx/tasks/plus/install-debian.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "c096ded971e1adef8bf976c2220ac4c0c23d666eac475b8cdcb8e060c21feab2",
+   "format": 1
+  },
+  {
+   "name": "roles/nginx/tasks/plus/remove-license.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "7c5958bd5fea3e139acba86bc634aa15ac9a01099e39febc23460282a5663c38",
+   "format": 1
+  },
+  {
+   "name": "roles/nginx/tasks/plus/setup-license.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "b4e3fa2172ec5039471fb03487484f701badefff3503a927b06fdf29e4c18066",
+   "format": 1
+  },
+  {
+   "name": "roles/nginx/tasks/plus/install-redhat.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "9b59c4442fbfcb766d4ecadee9d498f923814dcf35b262045027783fe2038686",
+   "format": 1
+  },
+  {
+   "name": "roles/nginx/LICENSE",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+   "format": 1
+  },
+  {
+   "name": "roles/nginx/CHANGELOG.md",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "2137e7960ac77559c9984ed99b1d9ba14418dc807c4a632924b41778fe35de60",
+   "format": 1
+  },
+  {
+   "name": "roles/nginx/meta",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/nginx/meta/main.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "289f97327d739c280af5a86c9787bb81ae190ad30ef2018de80eda4ed4e0a33c",
+   "format": 1
+  },
+  {
+   "name": "roles/nginx/README.md",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "317b8703373095be4149e0244a2d1b3a58c6ae2256094220f7034233d8cff2ed",
+   "format": 1
+  },
+  {
+   "name": "roles/nginx/defaults",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/nginx/defaults/main",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/nginx/defaults/main/logrotate.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "a58a052a1d186b48603843c4fb2045ca5cd27099926beca1928fdcc2eaeca88b",
+   "format": 1
+  },
+  {
+   "name": "roles/nginx/defaults/main/systemd.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "d39cfc14dd44e160dd66a13abdb6c36a460d4560ce693336c5abdbc0f4a3b5d6",
+   "format": 1
+  },
+  {
+   "name": "roles/nginx/defaults/main/bsd.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "6fa2659b5d8a6004a7f05d544549d0046019e6a00a3f0568cab83eee90e031c3",
+   "format": 1
+  },
+  {
+   "name": "roles/nginx/defaults/main/amplify.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "44648d1d4daf4ea852c048df5124b63af353fcb0a251c2005091ed18fda47042",
+   "format": 1
+  },
+  {
+   "name": "roles/nginx/defaults/main/selinux.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "a83d0035b4a5126a0075f95ebc3b8fed6632a223fc43469c814e090885f70f61",
+   "format": 1
+  },
+  {
+   "name": "roles/nginx/defaults/main/main.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "febe3785e68159c53757a3c8d85bc51cf6e7df409e96ccfca484541ece425c7d",
+   "format": 1
+  },
+  {
+   "name": "roles/nginx/.ansible-lint",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "7319ffaa5fce1bf0611f2ffeda58462617e8fe5b3c2dc3cc4eb7ead3dc9c5814",
+   "format": 1
+  },
+  {
+   "name": "roles/nginx/.gitignore",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "4eedd505548f7f0fbf87de110b490e386e154429680c03125030a31491e0980c",
+   "format": 1
+  },
+  {
+   "name": "roles/nginx/CONTRIBUTING.md",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "694b52dd5908f00393b3732b29c64b897e7846f2791931fa22be5101820b5ee8",
+   "format": 1
+  },
+  {
+   "name": "roles/nginx/.github",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/nginx/.github/CODEOWNERS",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "9e14322dff264fd0fb36742b5cabdc73b38203657901ac7e1c4c23cfdf939030",
+   "format": 1
+  },
+  {
+   "name": "roles/nginx/.github/workflows",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/nginx/.github/workflows/molecule.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "fd4f671d37f66a77a4620199c4c1a5891fccdaa2f9df998823b901d77ac48e8a",
+   "format": 1
+  },
+  {
+   "name": "roles/nginx/.github/workflows/requirements",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/nginx/.github/workflows/requirements/requirements_molecule.txt",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "0c5b097f600492079bd13d311a19b34c2250f1ccbe38aeb1207e4e9268a9e591",
+   "format": 1
+  },
+  {
+   "name": "roles/nginx/.github/workflows/requirements/requirements_galaxy.txt",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "f1ed88044039c04ac88b9ead4cfbb339103303f57c3fc9d1f9ccd39a262c68ba",
+   "format": 1
+  },
+  {
+   "name": "roles/nginx/.github/workflows/requirements/requirements_ansible.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "6a25b9da74d81f5afdac79e7b78449ff4ec3fcdee3dd01c795c32f4e7d4d93ee",
+   "format": 1
+  },
+  {
+   "name": "roles/nginx/.github/workflows/release-drafter.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "35ea77b554deeecbaab83b17c55bfc53a7c4d5cbed78575a5ad43a1c70368e7b",
+   "format": 1
+  },
+  {
+   "name": "roles/nginx/.github/workflows/galaxy.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "cfef773bb0a6c516984096e8faa72d6f3a1426eee3f4724789ec270d00110155",
+   "format": 1
+  },
+  {
+   "name": "roles/nginx/.github/pull_request_template.md",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "85ed910d0fca15c0eff2c33ac584992dfb9b9f19c8d6bd22cc11549e646000c9",
+   "format": 1
+  },
+  {
+   "name": "roles/nginx/.github/release-drafter.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "88ffed4b4b0c21f0c58db76791cd4468db41448c78089dfcb7bb970fcfd14469",
+   "format": 1
+  },
+  {
+   "name": "roles/nginx/.github/ISSUE_TEMPLATE",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/nginx/.github/ISSUE_TEMPLATE/feature_request.md",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "bc9db75e6d8555d94ea18c40bd3ec5ba85d7a7e6bc6c93ed742f9dbe64e7efe4",
+   "format": 1
+  },
+  {
+   "name": "roles/nginx/.github/ISSUE_TEMPLATE/bug_report.md",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "23e883cc34f8e7a21443707512496e58bc5de80b5c99cbd88bb12aff45fdebb8",
+   "format": 1
+  },
+  {
+   "name": "roles/nginx/.github/dependabot.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "725ef061323d05e0716f0cfae732246e15c37a8662ab0103f314e6192bef4794",
+   "format": 1
+  },
+  {
+   "name": "roles/nginx/.github/SECURITY.md",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "fd8a5b524e09c057f3aeb9566ab5f76140b2ef7e20a59b5a1fdb8cfd5a23e73a",
+   "format": 1
+  },
+  {
+   "name": "roles/nginx/files",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/nginx/files/license",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/nginx/files/license/.gitkeep",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "format": 1
+  },
+  {
+   "name": "roles/nginx/files/services",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/nginx/files/services/nginx.sysvinit",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "7cc2631ffebc9b416cbaef00d8c7b6e0da4896dbc3b546bcc95ce1da02fa3c78",
+   "format": 1
+  },
+  {
+   "name": "roles/nginx/files/services/nginx.openrc",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "7a9c1ee16b5918b2968b230f36c3904ee785152b281465324cf14d3db7bdeb1b",
+   "format": 1
+  },
+  {
+   "name": "roles/nginx/files/services/nginx.override.conf",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "2bebe06302f8b4e2f3a943d14dbbbc7937229b6f1ef3422ecaa8d9ab0694f340",
+   "format": 1
+  },
+  {
+   "name": "roles/nginx/files/services/nginx.conf.upstart",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "677ca7ee022a94cd2bb86606ef543780f463a7a714695fb962d3779a16b1c86f",
+   "format": 1
+  },
+  {
+   "name": "roles/nginx/files/services/nginx.systemd",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "dec0c53277aa3ece1710b944273d6ea8662f50449dc250250026f9c6a0784c88",
+   "format": 1
+  },
+  {
+   "name": "roles/nginx/files/services/nginx.upstart",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "7cc2631ffebc9b416cbaef00d8c7b6e0da4896dbc3b546bcc95ce1da02fa3c78",
+   "format": 1
+  },
+  {
+   "name": "roles/nginx/templates",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/nginx/templates/logrotate",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/nginx/templates/logrotate/nginx.j2",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "4cd5714a3647e44b5603ae1d429c958f0ec52c6cdc83d02ea72338ac13e7ca2f",
+   "format": 1
+  },
+  {
+   "name": "roles/nginx/templates/selinux",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/nginx/templates/selinux/nginx-plus-module.te.j2",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "01fbf39f0f0668c80f0918c4be66d0b113ed1dfe7163e57eaf6efb294866382c",
+   "format": 1
+  },
+  {
+   "name": "roles/nginx/templates/services",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/nginx/templates/services/nginx.service.override.conf.j2",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "1e3f4bb75142eddac42a5ff6f0e3bc4333e174b0f9260af19684192413498de6",
+   "format": 1
+  },
+  {
+   "name": "roles/nginx/.git",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "c1e577ac184a8b4f34784ad9c7ba917f5f503886fc9875368c484483e267db98",
+   "format": 1
+  },
+  {
+   "name": "roles/nginx/molecule",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/nginx/molecule/upgrade",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/nginx/molecule/upgrade/verify.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "b521d3bb6bb70eed8a5036d949fa28ff83f8040ddd8ff4e5085659d142fa4eb6",
+   "format": 1
+  },
+  {
+   "name": "roles/nginx/molecule/upgrade/molecule.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "aaf34d009d1af71588cade5da1762b70c0cfeb323c339292b1e4d27483d30a6b",
+   "format": 1
+  },
+  {
+   "name": "roles/nginx/molecule/upgrade/converge.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "0a634fe0492c5b96d190ac518d1310b844ae5f9cd8e0226fc71481a866ab7d14",
+   "format": 1
+  },
+  {
+   "name": "roles/nginx/molecule/upgrade/prepare.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "42796bd821fcdf24da3dac75085c89bed4fb7316df7848cd82506b670536644f",
+   "format": 1
+  },
+  {
+   "name": "roles/nginx/molecule/uninstall_plus",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/nginx/molecule/uninstall_plus/verify.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "850afb2bcdad358c840d566f036f9e41eb1fb148d9e8c927ab045cebbf9ef6d8",
+   "format": 1
+  },
+  {
+   "name": "roles/nginx/molecule/uninstall_plus/molecule.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "5da88c32296f08e66460d7d3714c86fd0f4e4f1f0d116ecff6a0095748725be8",
+   "format": 1
+  },
+  {
+   "name": "roles/nginx/molecule/uninstall_plus/converge.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "f8f5a7a9cc095491552fb19ad1bf35aee03e1720316ae9d5ef60a86d68c7aef4",
+   "format": 1
+  },
+  {
+   "name": "roles/nginx/molecule/uninstall_plus/prepare.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "e6a2f4de052e8b1292968b28f252f0a2f0f75cdbfd8a3bad9fdc314c5303bf9a",
+   "format": 1
+  },
+  {
+   "name": "roles/nginx/molecule/module",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/nginx/molecule/module/verify.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "61d33acbb9b8983a435aeecf748189fea1050508025bec960046e653e316aaf0",
+   "format": 1
+  },
+  {
+   "name": "roles/nginx/molecule/module/molecule.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "d55290eba9d29722036eade206a0707f0df2688e8aa6e8d3c796d07e12e29ed4",
+   "format": 1
+  },
+  {
+   "name": "roles/nginx/molecule/module/converge.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "b3f56d5f61af646576d575522d686ad01c732b4e4fe62471699dccf1e759d5d8",
+   "format": 1
+  },
+  {
+   "name": "roles/nginx/molecule/source",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/nginx/molecule/source/verify.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "da4fd977255e08e51d790fda4099a30ba0382c980d6b08884338e01a45fb6a11",
+   "format": 1
+  },
+  {
+   "name": "roles/nginx/molecule/source/molecule.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "d55290eba9d29722036eade206a0707f0df2688e8aa6e8d3c796d07e12e29ed4",
+   "format": 1
+  },
+  {
+   "name": "roles/nginx/molecule/source/converge.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "e4d46a35a400b9e2dcb7e0a35e31f025a408059c7419e1b30e4a52a537b51b9d",
+   "format": 1
+  },
+  {
+   "name": "roles/nginx/molecule/default",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/nginx/molecule/default/verify.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "30c3af4c96c7cd7e62f8edbdff5259ff1c31686161cee4863e81d9ebefa6b227",
+   "format": 1
+  },
+  {
+   "name": "roles/nginx/molecule/default/molecule.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "d55290eba9d29722036eade206a0707f0df2688e8aa6e8d3c796d07e12e29ed4",
+   "format": 1
+  },
+  {
+   "name": "roles/nginx/molecule/default/converge.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "ad8ece28a56c1b1165fc0415f322d2c770ff789427ea133de65b1921ce272e12",
+   "format": 1
+  },
+  {
+   "name": "roles/nginx/molecule/upgrade_plus",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/nginx/molecule/upgrade_plus/verify.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "629c1141aed574e0a9dcda4e0cffb953ec2f2c4c802c9a37b68becaa79028b1c",
+   "format": 1
+  },
+  {
+   "name": "roles/nginx/molecule/upgrade_plus/molecule.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "ecb2d436886681256432ad973dfc821d50bafd5c421badb9844b9e61a6473290",
+   "format": 1
+  },
+  {
+   "name": "roles/nginx/molecule/upgrade_plus/converge.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "413617d9ea53fb4ea631132b20430d0a25dccb49cc77d99d9a835e1432b7255f",
+   "format": 1
+  },
+  {
+   "name": "roles/nginx/molecule/upgrade_plus/prepare.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "4c263d5d72146368b5d48c426cac942a61573aeed46fb4b57e3fcec24c0e4bd7",
+   "format": 1
+  },
+  {
+   "name": "roles/nginx/molecule/common",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/nginx/molecule/common/Dockerfile.j2",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "f3eda5a3bb744305f7b98674ad442107116ad39289796688fab31ad51020626a",
+   "format": 1
+  },
+  {
+   "name": "roles/nginx/molecule/uninstall",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/nginx/molecule/uninstall/verify.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "23d6e17d420334075dac0fb94aa21cb4f9fd7e361cf6d34bdd7ec111b129c101",
+   "format": 1
+  },
+  {
+   "name": "roles/nginx/molecule/uninstall/molecule.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "aaf34d009d1af71588cade5da1762b70c0cfeb323c339292b1e4d27483d30a6b",
+   "format": 1
+  },
+  {
+   "name": "roles/nginx/molecule/uninstall/converge.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "269400f6baa1561537b9c42dfa48f96fd588a887780945c73c189cf3d8254b3f",
+   "format": 1
+  },
+  {
+   "name": "roles/nginx/molecule/uninstall/prepare.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "277cbfa9b85ca5c09e2f3347600a7950d4d565fd70ce0afbed4f59551609f819",
+   "format": 1
+  },
+  {
+   "name": "roles/nginx/molecule/downgrade",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/nginx/molecule/downgrade/verify.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "678a583c4cc7d03aa2e78b50a51afd4b2a7732bf2bf8a4d362aa0dd43ed9bd45",
+   "format": 1
+  },
+  {
+   "name": "roles/nginx/molecule/downgrade/molecule.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "aaf34d009d1af71588cade5da1762b70c0cfeb323c339292b1e4d27483d30a6b",
+   "format": 1
+  },
+  {
+   "name": "roles/nginx/molecule/downgrade/converge.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "d9ea308de1eb131101bbe958239eac8fe132d70c7606d99320ee03e8bc183027",
+   "format": 1
+  },
+  {
+   "name": "roles/nginx/molecule/downgrade/prepare.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "277cbfa9b85ca5c09e2f3347600a7950d4d565fd70ce0afbed4f59551609f819",
+   "format": 1
+  },
+  {
+   "name": "roles/nginx/molecule/downgrade_plus",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/nginx/molecule/downgrade_plus/verify.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "d7ace36bfd589962cec43f8cc296e05177073cebe29ee9bd40b929df644617d8",
+   "format": 1
+  },
+  {
+   "name": "roles/nginx/molecule/downgrade_plus/molecule.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "904d940463f156dbc0a0aa1c4c98a736b0e53671632241aaea76c0e17b983af2",
+   "format": 1
+  },
+  {
+   "name": "roles/nginx/molecule/downgrade_plus/converge.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "5e939863e220d6c504f61441bd52d5add6778aca08f57d93639baa000d9d57fc",
+   "format": 1
+  },
+  {
+   "name": "roles/nginx/molecule/downgrade_plus/prepare.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "e6a2f4de052e8b1292968b28f252f0a2f0f75cdbfd8a3bad9fdc314c5303bf9a",
+   "format": 1
+  },
+  {
+   "name": "roles/nginx/molecule/plus",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/nginx/molecule/plus/verify.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "ce747c30ec7e87f65fc50523135941cd6accb7d58d359e78c0293740476a1228",
+   "format": 1
+  },
+  {
+   "name": "roles/nginx/molecule/plus/molecule.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "aaf34d009d1af71588cade5da1762b70c0cfeb323c339292b1e4d27483d30a6b",
+   "format": 1
+  },
+  {
+   "name": "roles/nginx/molecule/plus/converge.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "7564a0f0bc4dbf4a4194b4a0bfc423c02de50688c5cd1666f54e086e36d0ce94",
+   "format": 1
+  },
+  {
+   "name": "roles/nginx/molecule/plus/prepare.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "3f260a62c20d03254fc7a647b00332aaed651a1c4c59492bf7186efec1c393f7",
+   "format": 1
+  },
+  {
+   "name": "roles/nginx/handlers",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/nginx/handlers/main.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "de32f38a1be0609c6475a671ac41849bcaf3c5a6aeb7d8b13f3a9b30b9a7d230",
+   "format": 1
+  },
+  {
+   "name": "roles/nginx_app_protect",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/nginx_app_protect/CODE_OF_CONDUCT.md",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "b470aafd686b4cf1f9965cfc7a1dbea006df0e314594a5b2b1f219c379a03701",
+   "format": 1
+  },
+  {
+   "name": "roles/nginx_app_protect/vars",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/nginx_app_protect/vars/main.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "dada9c4d18b37cae368e0222ca2093390d9908d538c9495e13c8dacd55e04e2b",
+   "format": 1
+  },
+  {
+   "name": "roles/nginx_app_protect/tasks",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/nginx_app_protect/tasks/dos",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/nginx_app_protect/tasks/dos/install-alpine.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "b11eacda4e4f0982d555a924388a6479f8ff576d7539b7095a2ffd81d1b0d52c",
+   "format": 1
+  },
+  {
+   "name": "roles/nginx_app_protect/tasks/dos/install-debian.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "51a58921803196358055ef23256aef3d9ba1706cd6eea4782cb374cb5e0c1c12",
+   "format": 1
+  },
+  {
+   "name": "roles/nginx_app_protect/tasks/dos/install-redhat.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "050e183143f23fadf86b2e53c336aaf0114b16b2b51c2d215e233ee0ecb147ab",
+   "format": 1
+  },
+  {
+   "name": "roles/nginx_app_protect/tasks/common",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/nginx_app_protect/tasks/common/install",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/nginx_app_protect/tasks/common/install/service-modification.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "e8f83dc96f37f60c41fd9263646dec289f09ed916e2aac6afd215cf65b5ba746",
+   "format": 1
+  },
+  {
+   "name": "roles/nginx_app_protect/tasks/common/install/remove-license.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "8160d70674fa62bb8762fd9b4c02f17a41eed844edac49d0db71b3e9a2df65db",
+   "format": 1
+  },
+  {
+   "name": "roles/nginx_app_protect/tasks/common/install/setup-license.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "3012fff6ff7dab277286c1b47c62aef82d85b6927e993a7ac0b12f27eee4881c",
+   "format": 1
+  },
+  {
+   "name": "roles/nginx_app_protect/tasks/common/prerequisites",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/nginx_app_protect/tasks/common/prerequisites/validate-supported-os.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "6d592c146678f55b458c43e00f4d475d5044cc49ab9530dea2443b94b24b94b4",
+   "format": 1
+  },
+  {
+   "name": "roles/nginx_app_protect/tasks/common/prerequisites/install-dependencies.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "4042665a2c35670489201d2dce20b2acc7017d592c5e1478f41df0d5a7a55e1c",
+   "format": 1
+  },
+  {
+   "name": "roles/nginx_app_protect/tasks/common/prerequisites/prerequisites.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "b9144b788fa35fc83f1c7cf3f6f0a787c4e1b107f912dadeb52767d87cff0c5c",
+   "format": 1
+  },
+  {
+   "name": "roles/nginx_app_protect/tasks/common/prerequisites/setup-selinux.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "5cfe7f065e19b1007a2d67821762fe64fa57dc8b68db0e7edc077c0d22d19643",
+   "format": 1
+  },
+  {
+   "name": "roles/nginx_app_protect/tasks/common/config",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/nginx_app_protect/tasks/common/config/configure-app-protect.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "49f8f1c60774f5ac59bd043999c7c991634042617a54a206665e76cdbe8f6d26",
+   "format": 1
+  },
+  {
+   "name": "roles/nginx_app_protect/tasks/common/keys",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/nginx_app_protect/tasks/common/keys/setup-keys.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "a93b15106a2edfc3f088051c756163dfa6aa8752aaaf7f54745fe46d9ce7d911",
+   "format": 1
+  },
+  {
+   "name": "roles/nginx_app_protect/tasks/waf",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/nginx_app_protect/tasks/waf/install-debian.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "048afceaafb66ec67665e305625f0c24840e55ae735aa6e6fe06b7e2c9f1a2f5",
+   "format": 1
+  },
+  {
+   "name": "roles/nginx_app_protect/tasks/waf/install-redhat.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "b7f92a0080c866a70714e36493ac5dcdb0ecc93660f644dc92da3a428fdfa7fa",
+   "format": 1
+  },
+  {
+   "name": "roles/nginx_app_protect/tasks/main.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "8fd62c07d36458cc0524de5917cdfd789be20c38742c25ea0ee97166611874a0",
+   "format": 1
+  },
+  {
+   "name": "roles/nginx_app_protect/LICENSE",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+   "format": 1
+  },
+  {
+   "name": "roles/nginx_app_protect/CHANGELOG.md",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "8e0369fe7f62b6e45f8cac17a5fa52a42a62eaa4546c5c01b5feae223b00d9ee",
+   "format": 1
+  },
+  {
+   "name": "roles/nginx_app_protect/images",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/nginx_app_protect/images/nap-logo.png",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "e02ef3df989902988679bb45194284e382bdd1e769f6b218547a8ffee93c9c2d",
+   "format": 1
+  },
+  {
+   "name": "roles/nginx_app_protect/meta",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/nginx_app_protect/meta/main.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "1dc6041685b54114afa2412eb4da746166f057b3ca812c953d033c5321c1d2b8",
+   "format": 1
+  },
+  {
+   "name": "roles/nginx_app_protect/README.md",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "9d4920598102a67b4b4558db09ccd3aa66e81b52087bbd68988d8bc4ba762340",
+   "format": 1
+  },
+  {
+   "name": "roles/nginx_app_protect/defaults",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/nginx_app_protect/defaults/main.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "c6bf6d331c2473447b84de47813e7fa21512018fad1bd2d54e590941c947333e",
+   "format": 1
+  },
+  {
+   "name": "roles/nginx_app_protect/.ansible-lint",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "ed9d646c9a269075fdb7a81d9507ba8b462260c387434d01baa98f689a539682",
+   "format": 1
+  },
+  {
+   "name": "roles/nginx_app_protect/.gitignore",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "fab32cf84ce21ce79377e41234b1ed116a00382f24dea0d54562f25fa393d1cc",
+   "format": 1
+  },
+  {
+   "name": "roles/nginx_app_protect/CONTRIBUTING.md",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "a20f33c1f959c55da2c12ae95104b90213e0999fbbd9606d904dafc162eb658b",
+   "format": 1
+  },
+  {
+   "name": "roles/nginx_app_protect/.github",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/nginx_app_protect/.github/CODEOWNERS",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "4a0ab89154191df9d1d90fedf3d3b1cc14e6d3f452a724ac4c41ce7c6727cc61",
+   "format": 1
+  },
+  {
+   "name": "roles/nginx_app_protect/.github/workflows",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/nginx_app_protect/.github/workflows/molecule.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "494473a93cd3236f48aa80cb66934e980c974917f5863ae001c17b2c6ef1861a",
+   "format": 1
+  },
+  {
+   "name": "roles/nginx_app_protect/.github/workflows/requirements",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/nginx_app_protect/.github/workflows/requirements/requirements_molecule.txt",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "4da093ee507287eced04d13498a0a4b6b6a9616a66c5ff817983e9f0305fa227",
+   "format": 1
+  },
+  {
+   "name": "roles/nginx_app_protect/.github/workflows/requirements/requirements_galaxy.txt",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "f1ed88044039c04ac88b9ead4cfbb339103303f57c3fc9d1f9ccd39a262c68ba",
+   "format": 1
+  },
+  {
+   "name": "roles/nginx_app_protect/.github/workflows/requirements/requirements_ansible.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "f6159ad361daedd72295a29979dbc4dc13e25e57a09fb66ddac52a111bfe724c",
+   "format": 1
+  },
+  {
+   "name": "roles/nginx_app_protect/.github/workflows/release-drafter.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "35ea77b554deeecbaab83b17c55bfc53a7c4d5cbed78575a5ad43a1c70368e7b",
+   "format": 1
+  },
+  {
+   "name": "roles/nginx_app_protect/.github/workflows/galaxy.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "cfef773bb0a6c516984096e8faa72d6f3a1426eee3f4724789ec270d00110155",
+   "format": 1
+  },
+  {
+   "name": "roles/nginx_app_protect/.github/pull_request_template.md",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "4e31aa355e726c56c8dbafe46db89e13f4d7941de9f1a38e6dd232a0be79faa0",
+   "format": 1
+  },
+  {
+   "name": "roles/nginx_app_protect/.github/release-drafter.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "305eaed5edc1235b27f8c82ff0d2dc43cc7db4694f7f81bfe0a2a13491d8b57f",
+   "format": 1
+  },
+  {
+   "name": "roles/nginx_app_protect/.github/ISSUE_TEMPLATE",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/nginx_app_protect/.github/ISSUE_TEMPLATE/feature_request.md",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "bc9db75e6d8555d94ea18c40bd3ec5ba85d7a7e6bc6c93ed742f9dbe64e7efe4",
+   "format": 1
+  },
+  {
+   "name": "roles/nginx_app_protect/.github/ISSUE_TEMPLATE/bug_report.md",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "b100117541492a3ff745ea829732a2fcd6915c2ea35837e792ba4e0d2058db1c",
+   "format": 1
+  },
+  {
+   "name": "roles/nginx_app_protect/.github/dependabot.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "725ef061323d05e0716f0cfae732246e15c37a8662ab0103f314e6192bef4794",
+   "format": 1
+  },
+  {
+   "name": "roles/nginx_app_protect/.github/SECURITY.md",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "fd8a5b524e09c057f3aeb9566ab5f76140b2ef7e20a59b5a1fdb8cfd5a23e73a",
+   "format": 1
+  },
+  {
+   "name": "roles/nginx_app_protect/files",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/nginx_app_protect/files/license",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/nginx_app_protect/files/license/.gitkeep",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "format": 1
+  },
+  {
+   "name": "roles/nginx_app_protect/templates",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/nginx_app_protect/templates/selinux",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/nginx_app_protect/templates/selinux/nginx-app-protect-module.te.j2",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "5d71729765a179019b2eeda846ebeab4bfc88fe7cbce89bdd0b9e0c2c8b6069c",
+   "format": 1
+  },
+  {
+   "name": "roles/nginx_app_protect/templates/services",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/nginx_app_protect/templates/services/nginx.service.override.conf.j2",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "3aa58896a1c22915a1435e70504da1acfd2c7dbd46081472da6066a74012c607",
+   "format": 1
+  },
+  {
+   "name": "roles/nginx_app_protect/.git",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "64096d9740454f18292daf114dbb5ca896a3bd263e7e54ae3cbf27b6fa2d55c2",
+   "format": 1
+  },
+  {
+   "name": "roles/nginx_app_protect/molecule",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/nginx_app_protect/molecule/advanced",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/nginx_app_protect/molecule/advanced/verify.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "a68a01a9ea8afeb32b6a2e937bcba3ff371c83c51b633888ad8f87cdb5469ffe",
+   "format": 1
+  },
+  {
+   "name": "roles/nginx_app_protect/molecule/advanced/molecule.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "a6a4d87f07255eaa2179bab7b0e5e7cd80a37af8d3709aa9656cb21db0fae167",
+   "format": 1
+  },
+  {
+   "name": "roles/nginx_app_protect/molecule/advanced/converge.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "af6895029b5cad14a4e8522434fff5b2c4d82f4c6428ea55fe72ec3ca9c8310e",
+   "format": 1
+  },
+  {
+   "name": "roles/nginx_app_protect/molecule/advanced/requirements.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "ef89272ff22a9af881c39607ca0b78f91ba68cb3983839249ffba7ed74f3be85",
+   "format": 1
+  },
+  {
+   "name": "roles/nginx_app_protect/molecule/advanced/prepare.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "9574acfa37e5ca3fb3a30220290252e1147fa58d0417e06c49d1b62a729e1ee4",
+   "format": 1
+  },
+  {
+   "name": "roles/nginx_app_protect/molecule/specific-version",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/nginx_app_protect/molecule/specific-version/verify.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "dba8be0a85e67584f2fd22584e87a0d50070f2d061175d77ceffe689211ad490",
+   "format": 1
+  },
+  {
+   "name": "roles/nginx_app_protect/molecule/specific-version/molecule.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "b3415efe76ed4e0914d1985c5faa302a4b44ff2470b5fb6254ed5191c258872f",
+   "format": 1
+  },
+  {
+   "name": "roles/nginx_app_protect/molecule/specific-version/converge.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "8ada67171138551373e88364fb9f9a572839057f349d7f59fb5a2e419ad82dd9",
+   "format": 1
+  },
+  {
+   "name": "roles/nginx_app_protect/molecule/dos",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/nginx_app_protect/molecule/dos/verify.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "4535185a241710a80d4a38a159e95b19167c25b3cfd0e0119ce4bcd5fff314e8",
+   "format": 1
+  },
+  {
+   "name": "roles/nginx_app_protect/molecule/dos/molecule.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "8e6709b32d1a20a42c2bdce7e16c288ae6d672abd048b9f310ff387d9dff8c41",
+   "format": 1
+  },
+  {
+   "name": "roles/nginx_app_protect/molecule/dos/converge.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "37e3e68dfcd7df07fced1857963397af7a93f4b167611db67e8eae3c480ca92e",
+   "format": 1
+  },
+  {
+   "name": "roles/nginx_app_protect/molecule/default",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/nginx_app_protect/molecule/default/verify.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "b3a80744716a0315660767a7919fbecd30280f683be080dfb5b836fbee9aa19f",
+   "format": 1
+  },
+  {
+   "name": "roles/nginx_app_protect/molecule/default/molecule.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "843e5ea45afd7636b8028d5126256b55d557f2a3c59caf7ce0f0a503671249e2",
+   "format": 1
+  },
+  {
+   "name": "roles/nginx_app_protect/molecule/default/converge.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "73a45aaff8d9bde6659fa17e5c01d25e424d9ea3a6e99462e2c9dd2e047a67e3",
+   "format": 1
+  },
+  {
+   "name": "roles/nginx_app_protect/molecule/default/files",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/nginx_app_protect/molecule/default/files/test-log-profile.json",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "616ee43c269c02c801c23adfbd46e6658a7e85c25994fe178cd6fed796f35052",
+   "format": 1
+  },
+  {
+   "name": "roles/nginx_app_protect/molecule/default/files/test-security-policy.json",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "fcdb33aa8321f07d3b06fcf1ad8e6fbf75c44f351046de7ec05a79cd830b6940",
+   "format": 1
+  },
+  {
+   "name": "roles/nginx_app_protect/molecule/common",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/nginx_app_protect/molecule/common/Dockerfile.j2",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "88307e78b97c399aace4b2faf4a0be86b7848d10d3f6f8a142f78b4ed3c7a436",
+   "format": 1
+  },
+  {
+   "name": "roles/nginx_app_protect/molecule/common/cleanup.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "f2979302b3fce9fbfabd091713ec7493c4ffce701f293b4a6877583f6a141d37",
+   "format": 1
+  },
+  {
+   "name": "roles/nginx_app_protect/molecule/common/prepare.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "3f260a62c20d03254fc7a647b00332aaed651a1c4c59492bf7186efec1c393f7",
+   "format": 1
+  },
+  {
+   "name": "roles/nginx_app_protect/molecule/uninstall",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/nginx_app_protect/molecule/uninstall/verify.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "086bbdbb97bbfb794090ee1bb2e2ce5f42c91820e796ba5ec5e2f66dfdceb88c",
+   "format": 1
+  },
+  {
+   "name": "roles/nginx_app_protect/molecule/uninstall/molecule.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "1d4af447535b06a8e6829839c4aec516df602324d54e85f3959f31aeaaa684ab",
+   "format": 1
+  },
+  {
+   "name": "roles/nginx_app_protect/molecule/uninstall/converge.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "3c75779dac3ef5867688bbc636849f63bb1b3863f657ebc2e0d87f35e63b0c19",
+   "format": 1
+  },
+  {
+   "name": "roles/nginx_app_protect/molecule/uninstall/prepare.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "6f775ed409ffe625ce2e80ae5ca3ef6c1a1eb0d5f6bd94af33ee3e2088d6babd",
+   "format": 1
+  },
+  {
+   "name": "roles/nginx_app_protect/handlers",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/nginx_app_protect/handlers/main.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "6d26a2ba3b080aab28f04d7306fad5ac2f41e45e1ad49c87dfd31a089b3d5103",
+   "format": 1
+  },
+  {
+   "name": "playbooks",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "playbooks/deploy-nginx.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "5ec6ca82288781d9935b1822137de7d07ea2d4b2c8de4f16b069e71f57c1bdcb",
+   "format": 1
+  },
+  {
+   "name": "playbooks/deploy-nginx-app-protect.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "ef71fabb0463bd621487631a2df277cf9874ada0a7bd2fd1a5cdaf9fbdc25da6",
+   "format": 1
+  },
+  {
+   "name": "playbooks/deploy-nginx-plus-app-protect-web-server-proxy.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "0732e82f540b3eba03b3af1b3543b4cfd9f020742763d0fe7db8fa2ee7f60bbc",
+   "format": 1
+  },
+  {
+   "name": "playbooks/deploy-nginx-web-server.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "1ebd4d4558ea46ddbcd783c669ef89ed9227fa9850917a49a751ede25767f063",
+   "format": 1
+  },
+  {
+   "name": "playbooks/deploy-nginx-web-server-proxy.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "e031accb19fe73125b2f3f60c6c47a455bb50a47c4004d4a02a40f4936c7f4db",
+   "format": 1
+  },
+  {
+   "name": "playbooks/deploy-nginx-plus-app-protect.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "e83c4b4a5082bbfa4b8c6429679b015f5c4368e8bfff3a236a169ec4012f9f79",
+   "format": 1
+  },
+  {
+   "name": "playbooks/deploy-nginx-plus.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "3684bc6f06eb59bd8359dc5cad9d4b9cbf0b6af518fdf92cd5ea7a99b27b6e9e",
+   "format": 1
+  },
+  {
+   "name": "docs",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "docs/.gitkeep",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "format": 1
+  },
+  {
+   "name": ".gitmodules",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "9c50c19102668272b33e1b88cd0f1337f85533007ea6ff2dbe186ab0d8239cc3",
+   "format": 1
+  },
+  {
+   "name": "README.md",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "79c7e40098313fe7b92f7cb28e8c98f8d9272001d525874a4e651cff7524670b",
+   "format": 1
+  },
+  {
+   "name": ".gitignore",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "0faff3a6b48f0dcc6b51b8ca4608a6c114494400717a94c756b537b0a167e066",
+   "format": 1
+  },
+  {
+   "name": "CONTRIBUTING.md",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "841f898f4cb482dc7233ca2461aee70233d95bb3973964c92771d03548772040",
+   "format": 1
+  },
+  {
+   "name": ".github",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": ".github/pull_request_template.md",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "3e43d5102b5aa9f1604237a100f623ba21d67e595d72c148204a67f691e5ce78",
+   "format": 1
+  },
+  {
+   "name": ".github/ISSUE_TEMPLATE",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": ".github/ISSUE_TEMPLATE/feature_request.md",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "bc9db75e6d8555d94ea18c40bd3ec5ba85d7a7e6bc6c93ed742f9dbe64e7efe4",
+   "format": 1
+  },
+  {
+   "name": ".github/ISSUE_TEMPLATE/bug_report.md",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "1f87da3038986dac681326fe2705a14f1d85ee6dbb8449e19bcbea1cb0e4ccc1",
+   "format": 1
+  }
+ ],
+ "format": 1
+}
